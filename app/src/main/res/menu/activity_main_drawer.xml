@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/edit_profile"
+            android:icon="@drawable/ic_baseline_edit_24"
+            android:title="@string/edit_profile" />
+
+        <item
+            android:id="@+id/change_password"
+            android:icon="@drawable/ic_baseline_lock_24"
+            android:title="@string/change_password" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Wallet">
+            <menu>
+                <item
+                    android:id="@+id/top_up"
+                    android:icon="@drawable/ic_baseline_payments_24"
+                    android:title="@string/top_up" />
+                <item
+                    android:id="@+id/withdraw"
+                    android:icon="@drawable/ic_baseline_payment_24"
+                    android:title="@string/withdraw" />
+                <item
+                    android:id="@+id/detail"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="@string/detail" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/app_name">
+            <menu>
+                <item
+                    android:id="@+id/about_us"
+                    android:icon="@drawable/logo"
+                    android:title="@string/about_us" />
+
+                <item
+                    android:id="@+id/privacy"
+                    android:icon="@drawable/ic_baseline_privacy_tip_24"
+                    android:title="@string/privacy2" />
+
+                <item
+                    android:id="@+id/share_app"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="@string/share_app" />
+
+                <item
+                    android:id="@+id/rate_app"
+                    android:icon="@drawable/ic_baseline_star_rate_24"
+                    android:title="@string/rate_app" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Account">
+            <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="@string/logout" />
+            </menu>
+        </item>
+    </group>
+</menu>
